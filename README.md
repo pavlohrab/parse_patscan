@@ -35,3 +35,11 @@ options:
 Version 0.1.0 - (C) Pavlo Hrab
 ```
 
+# Installation
+
+You need biopython and pandas in an environment. You ca install them with conda/mamba/micromamba:
+
+```{bash}
+conda create -n patscan biopython pandas
+conda activate patscan
+```
